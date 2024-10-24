@@ -5,8 +5,8 @@ set -e
 
 # Step 1: Install Docker
 echo "Installing Docker..."
-sudo apt-get update
-sudo apt-get install -y docker.io
+sudo yum update
+sudo yum install -y docker.io
 
 # Enable and start Docker service
 sudo systemctl enable docker
