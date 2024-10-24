@@ -26,7 +26,7 @@ sudo systemctl start docker
 sudo systemctl enable docker
 
 # Step 7: Verify Docker is running
-sudo systemctl status docker
+#sudo systemctl status docker
 
 # Step 8: Add your user to the Docker group (optional, so you can run Docker commands without sudo)
 sudo usermod -aG docker $USER
